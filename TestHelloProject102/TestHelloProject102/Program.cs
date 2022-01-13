@@ -10,10 +10,8 @@ namespace TestHelloProject102
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("I'M BATMAN");
-            Console.ReadLine();
-            Fibonnaci fibonnaci = new Fibonnaci();
-            fibonnaci.FindFibonnaci();
+            Console.WriteLine("WELCOME");
+            ReverseNumber.FindReverseNumber();
             Console.ReadLine();
         }
     }
